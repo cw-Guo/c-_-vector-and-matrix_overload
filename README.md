@@ -5,7 +5,7 @@
 
 代码中包含了一些`if `结构，在调试中使用，结束调试后未恢复。
 建议修改成：
-```
+``` c++
 #define Debug 1 // u can change it to control whether Debug or not
 #if  Debug
 ...//code
